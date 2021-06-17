@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './scss/style.css';
+import Landingpage from './landingpage';
 
 function App() {
   return (
-    <div className="topnav">
-     <h1>sunnyside</h1>
-        <a class="active" href="#home">Home</a>
-        <a href="#news">Services</a>
-        <a href="#contact">Projects</a>
-        <a href="#about">Contact</a>
+    <div>
+
+        <Landingpage />
     </div>
 
 
