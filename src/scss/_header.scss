@@ -5,6 +5,10 @@
         }
     }
 
+    nav{
+        padding: 24px;
+    }
+
     &__menu{ // mobile menu
         > span {
             display: block;
@@ -16,5 +20,26 @@
                 margin-bottom: 3px;
             }
         }
+    
+    &__links{
+        a {
+            font-size: $font-sm;
+            color: $grayishBlue;
+        }
     }
+    }
+
+    &__cta{
+        font-size: $font-sm;
+        color: $white;
+    }
+}
+
+//visibility
+.hide-for-mobile{
+
+}
+
+.hide-for-desktop{
+    
 }
