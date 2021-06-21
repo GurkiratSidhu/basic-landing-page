@@ -10,22 +10,22 @@ function Landingpage() {
                         <img src={logo} alt="Easybank"/>
                     </a>
 
-                    <a href="#" className="header__menu">
+                    <a href="/#" className="header__menu hide-for-desktop">
                         <span></span>
                         <span></span>
                         <span></span>
 
                
                     </a>
-                   <div class="header__links">
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Careers</a>
+                   <div class="header__links hide-for-mobile">
+                    <a href="/#">Home</a>
+                    <a href="/#">About</a>
+                    <a href="/#">Contact</a>
+                    <a href="/#">Blog</a>
+                    <a href="/#">Careers</a>
                     </div> 
 
-                    <a href="#" className="button header__cta">Request Invite</a>
+                    <a href="/#" className="button header__cta hide-for-mobile">Request Invite</a>
                 </nav>
                
 
