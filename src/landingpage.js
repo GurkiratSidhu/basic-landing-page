@@ -10,7 +10,7 @@ function Landingpage() {
                         <img src={logo} alt="Easybank"/>
                     </a>
 
-                    <a href="/#" className="header__menu hide-for-desktop">
+                    <a id="btnHamburger" href="/#" className="header__menu hide-for-desktop">
                         <span></span>
                         <span></span>
                         <span></span>
