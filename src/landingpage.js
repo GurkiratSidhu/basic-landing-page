@@ -36,7 +36,7 @@ function Landingpage() {
 
                 <div className="hero__text">
                      <h1>
-                        Next geenration digital banking
+                        Next generation digital banking
                     </h1>
 
                     <p>Take your financial life online, Your EasyBank account will be for spending, saving, budgeting, investing, and so much more.</p>
