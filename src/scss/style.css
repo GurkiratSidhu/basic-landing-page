@@ -155,6 +155,22 @@ a, a:visited, a:hover {
 }
 
 .hero__image {
+  position: relative;
   background-image: url("/src/images/bg-intro-mobile.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 17.5rem;
+}
+
+.hero__image::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url("/src/images/image-mockups.png");
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
 }
 /*# sourceMappingURL=style.css.map */
