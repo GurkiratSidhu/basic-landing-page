@@ -4,7 +4,9 @@ html {
           box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
@@ -13,25 +15,67 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.3;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
   font-size: 1.125rem;
   color: #9698a6;
   font-weight: 300;
+  line-height: 1.3;
 }
 
-h1, h2, h3 {
+@media (min-width: 64em) {
+  body {
+    font-size: body font-med;
+  }
+}
+
+h1,
+h2,
+h3 {
   margin-top: 0;
 }
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
   text-decoration: none;
 }
 
 .container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
+
+.container--pall {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.container--py {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.container--py {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.container--pt {
+  padding-top: 2.25rem;
+}
+
+.container--pt {
+  padding-right: 1.5rem;
+}
+
+.container--pt {
+  padding-bottom: 2.25rem;
+}
+
+.container--pt {
+  padding-left: 1.5rem;
 }
 
 .flex {
@@ -58,7 +102,9 @@ a, a:visited, a:hover {
           align-items: center;
 }
 
-.button, .button {
+.button,
+.button {
+  display: inline-block;
   padding: 0.875rem 2.1875rem;
   border-radius: 50px;
   cursor: pointer;
@@ -66,7 +112,15 @@ a, a:visited, a:hover {
   background: linear-gradient(to right, #31d35c, #2bb7da);
   border: 0;
   color: white;
+  font-size: 0.875rem;
   font-weight: 400;
+  -webkit-transition: opacity 300ms ease-inout;
+  transition: opacity 300ms ease-inout;
+}
+
+.button:hover,
+.button:hover {
+  opacity: 0.75;
 }
 
 @media (max-width: 63.9375em) {
@@ -154,15 +208,15 @@ a, a:visited, a:hover {
   opacity: 1;
 }
 
-.header__cta {
-  font-size: 0.875rem;
-  color: white;
-  -webkit-transition: opacity 300ms ease-inout;
-  transition: opacity 300ms ease-inout;
-}
-
-.header__cta:hover {
-  opacity: 0.75;
+@media (min-width: 64em) {
+  .hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .hero__image {
@@ -172,6 +226,20 @@ a, a:visited, a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 17.5rem;
+}
+
+@media (min-width: 64em) {
+  .hero__image {
+    -webkit-box-flex: 3;
+        -ms-flex: 3;
+            flex: 3;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 41rem;
+    background-image: url("/src/images/bg-intro-desktop.svg");
+    background-position: left center;
+  }
 }
 
 .hero__image::before {
@@ -189,12 +257,30 @@ a, a:visited, a:hover {
   text-align: center;
 }
 
+@media (min-width: 64em) {
+  .hero__text {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: left;
+  }
+}
+
 .hero__text h1 {
   font-weight: 300;
   font-size: 2.31rem;
   line-height: 1.15;
   color: #2d314d;
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 64em) {
+  .hero__text h1 {
+    font-size: 3.25rem;
+  }
 }
 
 .hero__text p {

@@ -5,7 +5,7 @@ function Landingpage() {
   return (
     <body>
       <header class="header">
-        <nav class="flex flex-jc-sb flex-ai-c">
+        <nav class="container container-pall flex flex-jc-sb flex-ai-c">
           <a href="/" className="header__logo">
             <img src={logo} alt="Easybank" />
           </a>
@@ -33,10 +33,10 @@ function Landingpage() {
         </nav>
       </header>
 
-      <section className="hero">
+      <section className="hero container">
         <div className="hero__image"></div>
 
-        <div className="hero__text container">
+        <div className="hero__text container--pall">
           <h1>Next generation digital banking</h1>
 
           <p>
