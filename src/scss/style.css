@@ -208,6 +208,10 @@ a:hover {
   opacity: 1;
 }
 
+.hero {
+  background-color: #fafafa;
+}
+
 @media (min-width: 64em) {
   .hero {
     display: -webkit-box;
