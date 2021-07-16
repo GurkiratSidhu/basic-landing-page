@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "./images/logo.svg";
+import image1 from "./images/icon-online.svg";
 
 function Landingpage() {
 	return (
@@ -52,15 +53,58 @@ function Landingpage() {
 				</div>
 			</section>
 		
-		<section className="features">
+		<section className="feature container continer--pall">
 			<h2>Why choose Easybank?</h2>
 			<p>We leverage Open Banking to turn your bank account into your finances like never before.</p>
 			<div className="feature__grid">
 				<div className="feature__item">
-					<div className="feature__icon"></div>
-					<div className="feature__title"></div>
-					<div className="feature__description"></div>
+					<div className="feature__icon">
+						<img src={image1} alt="Image1" />
+					</div>
+					<div className="feature__title">
+						Online Banking
+					</div>
+					<div className="feature__description">
+						Our modern mobile and web applications wherever you are in the world.
+					</div>
 				</div>
+
+				<div className="feature__item">
+					<div className="feature__icon">
+						<img src={image1} alt="Image1" />
+					</div>
+					<div className="feature__title">
+						Online Banking
+					</div>
+					<div className="feature__description">
+						Our modern mobile and web applications wherever you are in the world.
+					</div>
+				</div>
+
+				<div className="feature__item">
+					<div className="feature__icon">
+						<img src={image1} alt="Image1" />
+					</div>
+					<div className="feature__title">
+						Online Banking
+					</div>
+					<div className="feature__description">
+						Our modern mobile and web applications wherever you are in the world.
+					</div>
+				</div>
+
+				<div className="feature__item">
+					<div className="feature__icon">
+						<img src={image1} alt="Image1" />
+					</div>
+					<div className="feature__title">
+						Online Banking
+					</div>
+					<div className="feature__description">
+						Our modern mobile and web applications wherever you are in the world.
+					</div>
+				</div>
+
 			</div>
 		
 		</section>
