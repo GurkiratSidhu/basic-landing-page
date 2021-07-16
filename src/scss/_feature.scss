@@ -2,7 +2,8 @@
 	&__grid {
         
         @include breakpoint-up(medium) {
-			display: flex;
+            display: flex;
+            flex-wrap: wrap;
 		}
 	}
 
