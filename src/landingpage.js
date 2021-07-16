@@ -33,6 +33,7 @@ function Landingpage() {
 				</nav>
 			</header>
 
+
 			<section className="hero">
 				<div className="container">
 					<div className="hero__image"></div>
@@ -50,6 +51,20 @@ function Landingpage() {
 					</div>
 				</div>
 			</section>
+		
+		<section className="features">
+			<h2>Why choose Easybank?</h2>
+			<p>We leverage Open Banking to turn your bank account into your finances like never before.</p>
+			<div className="feature__grid">
+				<div className="feature__item">
+					<div className="feature__icon"></div>
+					<div className="feature__title"></div>
+					<div className="feature__description"></div>
+				</div>
+			</div>
+		
+		</section>
+		
 		</body>
 	);
 }
