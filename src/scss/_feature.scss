@@ -1,27 +1,33 @@
-.feature{
-    &__grid{
-        @include breakpoint-up(large){
-            display: flex;
+.feature {
+	&__grid {
+        
+        @include breakpoint-up(medium) {
+			display: flex;
+		}
+	}
+
+	&__item {
+		border: 1px solid magenta;
+		padding: 0.9375rem;
+
+        @include breakpoint-up(medium){
+            flex: 1 0 50%;
         }
-    }
 
-    &__item{
-        @include breakpoint-up(large){
-            flex:1;
-        }
-    }
+		@include breakpoint-up(large) {
+			flex: 1;
+		}
+	}
 
-    // &__icon{
+	// &__icon{
 
-    // }
+	// }
 
-    // &__title{
+	// &__title{
 
-    // }
+	// }
 
-    // &__description{
+	// &__description{
 
-    // }
-
-
+	// }
 }

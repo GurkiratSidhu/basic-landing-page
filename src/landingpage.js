@@ -34,7 +34,6 @@ function Landingpage() {
 				</nav>
 			</header>
 
-
 			<section className="hero">
 				<div className="container">
 					<div className="hero__image"></div>
@@ -52,63 +51,59 @@ function Landingpage() {
 					</div>
 				</div>
 			</section>
-		
-		<section className="feature container continer--pall">
-			<h2>Why choose Easybank?</h2>
-			<p>We leverage Open Banking to turn your bank account into your finances like never before.</p>
-			<div className="feature__grid">
-				<div className="feature__item">
-					<div className="feature__icon">
-						<img src={image1} alt="Image1" />
+
+			<section className="feature container continer--pall">
+				<h2>Why choose Easybank?</h2>
+				<p>
+					We leverage Open Banking to turn your bank account into your finances
+					like never before.
+				</p>
+				<div className="feature__grid">
+					<div className="feature__item">
+						<div className="feature__icon">
+							<img src={image1} alt="Image1" />
+						</div>
+						<div className="feature__title">Online Banking</div>
+						<div className="feature__description">
+							Our modern mobile and web applications wherever you are in the
+							world.
+						</div>
 					</div>
-					<div className="feature__title">
-						Online Banking
+
+					<div className="feature__item">
+						<div className="feature__icon">
+							<img src={image1} alt="Image1" />
+						</div>
+						<div className="feature__title">Online Banking</div>
+						<div className="feature__description">
+							Our modern mobile and web applications wherever you are in the
+							world.
+						</div>
 					</div>
-					<div className="feature__description">
-						Our modern mobile and web applications wherever you are in the world.
+
+					<div className="feature__item">
+						<div className="feature__icon">
+							<img src={image1} alt="Image1" />
+						</div>
+						<div className="feature__title">Online Banking</div>
+						<div className="feature__description">
+							Our modern mobile and web applications wherever you are in the
+							world.
+						</div>
+					</div>
+
+					<div className="feature__item">
+						<div className="feature__icon">
+							<img src={image1} alt="Image1" />
+						</div>
+						<div className="feature__title">Online Banking</div>
+						<div className="feature__description">
+							Our modern mobile and web applications wherever you are in the
+							world.
+						</div>
 					</div>
 				</div>
-
-				<div className="feature__item">
-					<div className="feature__icon">
-						<img src={image1} alt="Image1" />
-					</div>
-					<div className="feature__title">
-						Online Banking
-					</div>
-					<div className="feature__description">
-						Our modern mobile and web applications wherever you are in the world.
-					</div>
-				</div>
-
-				<div className="feature__item">
-					<div className="feature__icon">
-						<img src={image1} alt="Image1" />
-					</div>
-					<div className="feature__title">
-						Online Banking
-					</div>
-					<div className="feature__description">
-						Our modern mobile and web applications wherever you are in the world.
-					</div>
-				</div>
-
-				<div className="feature__item">
-					<div className="feature__icon">
-						<img src={image1} alt="Image1" />
-					</div>
-					<div className="feature__title">
-						Online Banking
-					</div>
-					<div className="feature__description">
-						Our modern mobile and web applications wherever you are in the world.
-					</div>
-				</div>
-
-			</div>
-		
-		</section>
-		
+			</section>
 		</body>
 	);
 }
