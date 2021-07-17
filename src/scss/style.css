@@ -60,6 +60,11 @@ h2 {
   }
 }
 
+p {
+  line-height: 1.5;
+  margin-bottom: 2.25rem;
+}
+
 a,
 a:visited,
 a:hover {
@@ -332,6 +337,12 @@ a:hover {
         -ms-flex-order: 1;
             order: 1;
     text-align: left;
+  }
+}
+
+@media (min-width: 64em) {
+  .feature__intro {
+    width: 60%;
   }
 }
 
