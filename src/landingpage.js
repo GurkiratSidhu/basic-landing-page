@@ -1,13 +1,19 @@
 import React from "react";
 import logo from "./images/logo.svg";
-import image1 from "./images/icon-online.svg";
-import image2 from "./images/icon-budgeting.svg";
-import image3 from "./images/icon-onboarding.svg";
-import image4 from "./images/icon-api.svg";
-import image5 from "./images/image-currency.jpg";
-import image6 from "./images/image-restaurant.jpg";
-import image7 from "./images/image-plane.jpg";
-import image8 from "./images/image-confetti.jpg";
+import logodark from "./images/logo-dark.svg";
+import feature1 from "./images/icon-online.svg";
+import feature2 from "./images/icon-budgeting.svg";
+import feature3 from "./images/icon-onboarding.svg";
+import feature4 from "./images/icon-api.svg";
+import article1 from "./images/image-currency.jpg";
+import article2 from "./images/image-restaurant.jpg";
+import article3 from "./images/image-plane.jpg";
+import article4 from "./images/image-confetti.jpg";
+import social1 from "./images/icon-facebook.svg";
+import social2 from "./images/icon-youtube.svg";
+import social3 from "./images/icon-twitter.svg";
+import social4 from "./images/icon-pinterest.svg";
+import social5 from "./images/icon-instagram.svg";
 
 function Landingpage() {
 	return (
@@ -72,7 +78,7 @@ function Landingpage() {
 					<div className="feature__grid">
 						<div className="feature__item">
 							<div className="feature__icon">
-								<img src={image1} alt="Image1" />
+								<img src={feature1} alt="feature1" />
 							</div>
 							<div className="feature__title">Online Banking</div>
 							<div className="feature__description">
@@ -83,7 +89,7 @@ function Landingpage() {
 
 						<div className="feature__item">
 							<div className="feature__icon">
-								<img src={image2} alt="Image2" />
+								<img src={feature2} alt="feature2" />
 							</div>
 							<div className="feature__title">Simple Budgeting</div>
 							<div className="feature__description">
@@ -94,7 +100,7 @@ function Landingpage() {
 
 						<div className="feature__item">
 							<div className="feature__icon">
-								<img src={image3} alt="Image3" />
+								<img src={feature3} alt="feature3" />
 							</div>
 							<div className="feature__title">Fast Onboarding</div>
 							<div className="feature__description">
@@ -105,7 +111,7 @@ function Landingpage() {
 
 						<div className="feature__item">
 							<div className="feature__icon">
-								<img src={image4} alt="Image4" />
+								<img src={feature4} alt="feature4" />
 							</div>
 							<div className="feature__title">Open API</div>
 							<div className="feature__description">
@@ -121,10 +127,10 @@ function Landingpage() {
 				<div className="article__content container container--pall">
 					<h2>Latest Articles</h2>
 					<div className="article__grid">
-						<a href="#" className="article__item">
+						<a href="/" className="article__item">
 							<div
 								className="article__image"
-								style={{ backgroundImage: `url(${image5})` }}
+								style={{ backgroundImage: `url(${article1})` }}
 							></div>
 							<div className="article__text">
 								<div className="article__author">By Claire Robinson</div>
@@ -139,10 +145,10 @@ function Landingpage() {
 							</div>
 						</a>
 
-						<a href="#" className="article__item">
+						<a href="/" className="article__item">
 							<div
 								className="article__image"
-								style={{ backgroundImage: `url(${image6})` }}
+								style={{ backgroundImage: `url(${article2})` }}
 							></div>
 							<div className="article__text">
 								<div className="article__author">By Wilson Hutton</div>
@@ -156,10 +162,10 @@ function Landingpage() {
 							</div>
 						</a>
 
-						<a href="#" className="article__item">
+						<a href="/" className="article__item">
 							<div
 								className="article__image"
-								style={{ backgroundImage: `url(${image7})` }}
+								style={{ backgroundImage: `url(${article3})` }}
 							></div>
 							<div className="article__text">
 								<div className="article__author">By Wilson Hutton</div>
@@ -174,10 +180,10 @@ function Landingpage() {
 							</div>
 						</a>
 
-						<a href="#" className="article__item">
+						<a href="/" className="article__item">
 							<div
 								className="article__image"
-								style={{ backgroundImage: `url(${image8})` }}
+								style={{ backgroundImage: `url(${article4})` }}
 							></div>
 							<div className="article__text">
 								<div className="article__author">By Claire Robinson</div>
@@ -194,6 +200,54 @@ function Landingpage() {
 					</div>
 				</div>
 			</section>
+			<footer className="footer">
+				<div className="container">
+					<a className="footer__logo" href="/">
+						<img src={logodark} alt="Easybank" />
+					</a>
+					<div className="footer__social">
+						<a href="/">
+							<img src={social1} alt="Facebook" />
+						</a>
+
+						<a href="/">
+							<img src={social2} alt="YouTube" />
+						</a>
+
+						<a href="/">
+							<img src={social3} alt="Twitter" />
+						</a>
+
+						<a href="/">
+							<img src={social4} alt="Pinterest" />
+						</a>
+
+						<a href="/">
+							<img src={social5} alt="Instagram" />
+						</a>
+					</div>
+
+					<div className="footer__links col1">
+						<a href="/">About Us</a>
+						<a href="/">Contact</a>
+						<a href="/">Blog</a>
+					</div>
+
+					<div className="footer__links col2">
+						<a href="/">Careers</a>
+						<a href="/">Support</a>
+						<a href="/">Privacy Policy</a>
+					</div>
+					<div className="footer__cta">
+						<a href="/" className="button">
+							Request Invite
+						</a>
+					</div>
+					<div className="footer__copyright">
+						&copy; Easybank. All rights reserved.
+					</div>
+				</div>
+			</footer>
 		</body>
 	);
 }
