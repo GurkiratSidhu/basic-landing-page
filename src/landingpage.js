@@ -4,6 +4,7 @@ import image1 from "./images/icon-online.svg";
 import image2 from "./images/icon-budgeting.svg";
 import image3 from "./images/icon-onboarding.svg";
 import image4 from "./images/icon-api.svg";
+import image5 from "./images/image-currency.jpg";
 
 function Landingpage() {
 	return (
@@ -109,6 +110,71 @@ function Landingpage() {
 								one account. Tracking your money has never been easier.
 							</div>
 						</div>
+					</div>
+				</div>
+			</section>
+
+			<section className="articles">
+				<div className="article__content container container--pall">
+					<h2>Latest Articles</h2>
+					<div className="article__grid">
+						<a href="#" className="article__item">
+							<div className="article__image" style={{backgroundImage: `url(${image5})`}}></div>
+							<div className="article__text">
+								<div className="article__author">By Claire Robinson</div>
+								<div className="article__title">
+									Receive money in any currency with no fees
+								</div>
+								<div className="article__description">
+									The world is getting smaller and we're becoming more mobile.
+									forced to only receive money in a single ...
+								</div>
+							</div>
+						</a>
+
+						<a href="#" className="article__item">
+							<div className="article__image" style={{backgroundImage: `url(${image5})`}}></div>
+							<div className="article__text">
+								<div className="article__author">By Claire Robinson</div>
+								<div className="article__title">
+									Receive money in any currency with no fees
+								</div>
+								<div className="article__description">
+									The world is getting smaller and we're becoming more mobile.
+									forced to only receive money in a single ...
+								</div>
+							</div>
+						</a>
+
+						<a href="#" className="article__item">
+							<div className="article__image" style={{backgroundImage: `url(${image5})`}}></div>
+							<div className="article__text">
+								<div className="article__author">By Claire Robinson</div>
+								<div className="article__title">
+									Receive money in any currency with no fees
+								</div>
+								<div className="article__description">
+									The world is getting smaller and we're becoming more mobile.
+									forced to only receive money in a single ...
+								</div>
+							</div>
+						</a>
+
+						<a href="#" className="article__item">
+							<div className="article__image" style={{backgroundImage: `url(${image5})`}}></div>
+							<div className="article__text">
+								<div className="article__author">By Claire Robinson</div>
+								<div className="article__title">
+									Receive money in any currency with no fees
+								</div>
+								<div className="article__description">
+									The world is getting smaller and we're becoming more mobile.
+									forced to only receive money in a single ...
+								</div>
+							</div>
+						</a>
+
+						
 					</div>
 				</div>
 			</section>
